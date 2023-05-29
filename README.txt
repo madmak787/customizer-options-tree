@@ -2,9 +2,9 @@
 Contributors: madmak787
 Tags: option tree, customizer, custom option tree, tree, options, options tree, get_option
 Requires at least: 4.0.0
-Tested up to: 5.7.2
-Requires PHP: 5.0.0
-Stable tag: 1.0.0
+Tested up to: 6.2.2
+Requires PHP: 7.4
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,4 +22,7 @@ Its a plugin to add section and control into WP-Customizer, adding controls in W
 2. WP Customizer
 
 == Changelog ==
+1.1.0 Added defaults fields like logo, copyright text, social links etc. Fix some notices when debug on.
+
+1.0.1 Added support for WP 6.2.2
 1.0.0

@@ -17,7 +17,7 @@ class MAKCustomizer_Customizer {
 
     function mmc_customize_option( $wp_customize ) {
 
-        $panel = 'Theme Options';
+        $panel = 'Customizer Option Tree';
         $panel_key = 'mmc_' . str_replace(' ','_',strtolower($panel));
         
         $customizer = get_option('mmc_fields');

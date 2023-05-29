@@ -53,10 +53,11 @@ class MAKCustomizer_Adminajax {
     }
 
     function mmc_add_control_html() {
+        $control['label'] = 'Name';
         $control['name'] = '';
         $control['type'] = 'text';
         $control['description'] = '';
-        $control['choice'] = '';
+        $control['choices'] = '';
         $close_html = 'x';
         $down_html = '>';
         $s_index = 1;
@@ -76,6 +77,7 @@ class MAKCustomizer_Adminajax {
     }
 
     function mmc_save_options_fields() {
+        unset($_POST['action']);
         $fields = array();
         foreach($_POST['section'] as $i=>$sectionName) {
             if(isset($_POST['control'][$i])) {

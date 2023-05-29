@@ -20,7 +20,7 @@ ob_end_clean();
 $control['label'] = 'Text';
 $control['type'] = 'text';
 $control['description'] = '';
-$control['choice'] = '';
+$control['choices'] = '';
 ob_start();
 include(dirname(__FILE__) . '/default/control.php');
 $control_html = ob_get_contents();
