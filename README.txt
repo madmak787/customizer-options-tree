@@ -22,4 +22,6 @@ Its a plugin to add section and control into WP-Customizer, adding controls in W
 2. WP Customizer
 
 == Changelog ==
+1.0.1 Updated PHP files and version
+
 1.0.0
