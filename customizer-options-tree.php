@@ -9,7 +9,7 @@
  * Description:       Its a plugin to add section and control into WP-Customizer, adding controls in WP-Customizer is complex and requires code dependent on each other to display a single option. But this plugin provides you easy UI to add section and controls, it will be saved in options table of wordpress, so you can simply call them by using get_option(`SLUG`); function.
  * Version:           1.0.0
  * Requires at least: 5.3
- * Requires PHP:      5.6
+ * Requires PHP:      7.4
  * Author:            madmak787
  * Author URI:        https://khanamir.me/
  * License:           GPL v2 or later
