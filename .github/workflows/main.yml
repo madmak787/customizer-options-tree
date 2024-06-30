@@ -14,6 +14,6 @@ jobs:
       with:
         WORDPRESS_PASSWORD: ${{ secrets.SVN_PASSWORD }}
         WORDPRESS_USERNAME: ${{ secrets.SVN_USERNAME }}
-        SLUG: customizer-option-tree
+        SLUG: customizer-options-tree
       env:
         GITHUB_TOKEN: ${{ secrets.GB_TOKEN }}
